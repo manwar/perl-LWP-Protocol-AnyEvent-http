@@ -6,7 +6,7 @@ use Module::Build qw( );
 my $build = Module::Build->new(
    module_name => 'LWP::Protocol::AnyEvent::http',
    dist_author => 'Eric Brine <ikegami@adaelis.com>',
-   license     => 'CC0_1_0',
+   license     => 'restricted',
    configure_requires => {
       'Module::Build'              => 0.36_14,
       'Software::License::CC0_1_0' => 0,
